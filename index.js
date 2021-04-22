@@ -8,6 +8,10 @@ app.get("/", (req, res) => {
     res.send("Hello world!");
 });
 
+app.get("/Grace", (req, res) => {
+    res.send("Grace True is a poopy butthead");
+});
+
 app.listen(port, () => {
     console.log("Example app listening.");
 });
